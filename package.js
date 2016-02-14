@@ -1,6 +1,6 @@
 Package.describe({
   name: "txgruppi:namespace",
-  version: "0.0.2",
+  version: "0.0.3",
   summary: "Namespace helper for Meteor",
   git: "https://github.com/txgruppi/meteor-namespace",
   documentation: "README.md"
