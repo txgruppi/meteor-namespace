@@ -1,8 +1,12 @@
 sudo: required
 language: node_js
 node_js:
-  - "0.8"
+  - "4.1"
+  - "4.0"
+  - "0.12"
+  - "0.11"
   - "0.10"
+  - "0.8"
 
 before_install:
-  - "curl -L http://git.io/ejPSng | /bin/sh"
+  - "curl -L https://gist.githubusercontent.com/txgruppi/cc41d54e12228857d225/raw/79021465272905551ff145d7f1d16758c3626515/setup.sh | /bin/sh"
