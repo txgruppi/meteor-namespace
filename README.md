@@ -1,5 +1,5 @@
 ## meteor-namespace
-A namespace helper for Meteor.
+A namespace helper for meteor. It allows you to define namespaces in meteor using the well-known dot notation.
 
 ## Installation
 ```
