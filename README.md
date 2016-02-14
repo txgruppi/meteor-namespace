@@ -31,3 +31,7 @@ namespace "MyBlog.Models", ->
   Posts = new Mongo.Collection("posts")
   return { Posts }
 ```
+
+## License
+
+GPLv3
