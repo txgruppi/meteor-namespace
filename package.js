@@ -1,5 +1,5 @@
 Package.describe({
-  name: "namespace",
+  name: "txgruppi:namespace",
   version: "0.0.1",
   summary: "Namespace helper for Meteor",
   git: "https://github.com/txgruppi/meteor-namespace",
@@ -13,6 +13,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use("tinytest");
-  api.use("namespace");
+  api.use("txgruppi:namespace");
   api.addFiles("namespace-tests.js");
 });
