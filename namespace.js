@@ -5,7 +5,7 @@ function namespace(ns, fn) {
     null;
 
   if (!g) {
-    throw new Error("The global scope could now be found, tried `global` and `window`.");
+    throw new Error("The global scope could not be found, tried `global` and `window`.");
   }
 
   ns = ns.trim();
